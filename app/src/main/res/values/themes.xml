@@ -1,0 +1,42 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.COSC3P97_A1" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/purple</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="Theme.COSC3P97_A1" parent="Base.Theme.COSC3P97_A1" />
+
+    <style name="button" parent="Base.Theme.COSC3P97_A1" >
+        <item name="android:textSize">30dip</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+    </style>
+
+    <style name="button.mode" parent="button" >
+        <item name="android:background">@drawable/button</item>
+        <item name="android:backgroundTint">@color/purple</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="button.landscape" parent="button" >
+        <item name="android:textSize">25dip</item>
+        <item name="android:fontFamily">monospace</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dip</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+    </style>
+
+    <style name="button.mode.landscape" parent="button.landscape" >
+        <item name="android:background">@drawable/button</item>
+        <item name="android:backgroundTint">@color/purple</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+</resources>

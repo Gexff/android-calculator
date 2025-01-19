@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Display -->
+    <TextView
+        android:id="@+id/display"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text=""
+        android:textSize="50dip"
+        android:gravity="right|bottom"
+        android:textColor="@color/white"
+        android:paddingRight="10dp"
+        android:fontFamily="monospace"
+        android:layout_row="0"
+        android:layout_column="0"
+        android:layout_columnSpan="6"
+        android:layout_rowWeight="1"
+         />
+
+    <Button
+        style="@style/button.landscape"
+        android:layout_row="1"
+        android:layout_column="0"
+        android:text="AC"
+        android:onClick="AC"/>
+
+    <ToggleButton
+        android:id="@+id/mode"
+        style="@style/button.mode.landscape"
+        android:layout_row="1"
+        android:layout_column="3"
+        android:textOff="MODE"
+        android:textOn="MODE" />
+
+    <Button
+        style="@style/button.landscape"
+        android:layout_row="2"
+        android:layout_column="0"
+        android:onClick="C"
+        android:text="C" />
+
+    <Button
+        style="@style/button.landscape"
+        android:layout_row="4"
+        android:layout_column="4"
+        android:onClick="negate"
+        android:text="+/–" />
+
+    <Button
+        android:id="@+id/divide"
+        style="@style/button.landscape"
+        android:layout_row="2"
+        android:layout_column="5"
+        android:onClick="operator"
+        android:text="÷" />
+
+    <Button
+        android:id="@+id/b7"
+        style="@style/button.landscape"
+        android:layout_row="2"
+        android:layout_column="1"
+        android:onClick="operand"
+        android:text="7" />
+
+    <Button
+        android:id="@+id/b8"
+        style="@style/button.landscape"
+        android:layout_width="wrap_content"
+        android:layout_row="2"
+        android:layout_column="2"
+        android:onClick="operand"
+        android:text="8" />
+
+    <Button
+        android:id="@+id/b9"
+        style="@style/button.landscape"
+        android:layout_row="2"
+        android:layout_column="3"
+        android:onClick="operand"
+        android:text="9" />
+
+    <Button
+        android:id="@+id/multiply"
+        style="@style/button.landscape"
+        android:layout_row="2"
+        android:layout_column="4"
+        android:onClick="operator"
+        android:text="×" />
+
+    <Button
+        android:id="@+id/b4"
+        style="@style/button.landscape"
+        android:layout_row="3"
+        android:layout_column="1"
+        android:text="4"
+        android:onClick="operand"/>
+
+    <Button
+        android:id="@+id/b5"
+        style="@style/button.landscape"
+        android:layout_row="3"
+        android:layout_column="2"
+        android:text="5"
+        android:onClick="operand"
+        />
+
+    <Button
+        android:id="@+id/b6"
+        style="@style/button.landscape"
+        android:layout_row="3"
+        android:layout_column="3"
+        android:onClick="operand"
+        android:text="6" />
+
+    <Button
+        android:id="@+id/subtract"
+        style="@style/button.landscape"
+        android:layout_row="3"
+        android:layout_column="5"
+        android:onClick="operator"
+        android:text="-" />
+
+    <Button
+        android:id="@+id/b1"
+        style="@style/button.landscape"
+        android:layout_row="4"
+        android:layout_column="1"
+        android:text="1"
+        android:onClick="operand"/>
+
+    <Button
+        android:id="@+id/b2"
+        style="@style/button.landscape"
+        android:layout_row="4"
+        android:layout_column="2"
+        android:text="2"
+        android:onClick="operand"
+        />
+
+    <Button
+        android:id="@+id/b3"
+        style="@style/button.landscape"
+        android:layout_row="4"
+        android:layout_column="3"
+        android:text="3"
+        android:onClick="operand"
+        />
+
+    <Button
+        android:id="@+id/add"
+        style="@style/button.landscape"
+        android:layout_row="3"
+        android:layout_column="4"
+        android:onClick="operator"
+        android:text="+" />
+
+    <Button
+        android:id="@+id/b0"
+        style="@style/button.landscape"
+        android:layout_row="4"
+        android:layout_column="0"
+        android:text="0"
+        android:onClick="operand"/>
+
+    <Button
+        style="@style/button.landscape"
+        android:layout_row="3"
+        android:layout_column="0"
+        android:text="."
+        android:onClick="decimal"
+        />
+
+    <Button
+        android:id="@+id/right_bracket"
+        style="@style/button.landscape"
+        android:layout_row="1"
+        android:layout_column="5"
+        android:onClick="bracket"
+        android:text=")" />
+
+    <Button
+        style="@style/button.landscape"
+        android:layout_row="1"
+        android:layout_column="1"
+        android:onClick="store"
+        android:text="MS" />
+
+    <Button
+        style="@style/button.landscape"
+        android:layout_row="1"
+        android:layout_column="2"
+        android:onClick="remember"
+        android:text="MR" />
+
+    <Button
+        android:id="@+id/left_bracket"
+        style="@style/button.landscape"
+        android:layout_row="1"
+        android:layout_column="4"
+        android:onClick="bracket"
+        android:text="(" />
+
+    <Button
+        android:text="="
+        android:layout_row="4"
+        android:layout_column="5"
+        style="@style/button.landscape"
+        android:onClick="equals"
+        />
+
+</GridLayout>

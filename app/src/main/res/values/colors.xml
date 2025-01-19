@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="selectedOperator" type="id">#FF1761</color>
+    <color name="purple" type="id">#8900FF</color>
+    <color name="orange" type="id">#FF9800</color>
+    <color name="dark_grey">#2E2E2E</color>
+    <color name="light_grey">#939393</color>
+</resources>
