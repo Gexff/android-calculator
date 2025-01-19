@@ -20,7 +20,7 @@ To evaluate formulas, the app converts the entered infix expression into postfix
 | =         | Performs the operation.                                                                                                                                                                                     |
 | AC        | All-clear. Press when “Error” is displayed to reset.                                                                                                                                                        |
 | C         | Clear. If an operator is selected in basic mode, it will unselect it. If an operand was last pressed, it will remove the digit on the far right. In formula mode, removes the digit on the right hand side. |
-| MODE      | Toggle button to switch between basic and formula modes                                                                                                                                                     |
+| MODE      | Toggle button to switch between basic and formula modes.                                                                                                                                                    |
 | MS        | Save the current displayed value to memory.                                                                                                                                                                 |
 | MR        | In basic mode, sets the current operand to the saved value. In formula mode, appends the saved value to the expression.                                                                                     |
 
