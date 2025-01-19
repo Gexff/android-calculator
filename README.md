@@ -7,7 +7,7 @@ The calculator has 2 modes:
 * Formula Mode
 	* Enter an entire expression at once, with potential parentheses, and have it evaluated.
 
-To evaluate formulas, the app converts the entered infix expression into postfix. The implementation of the infix to postfix algorithm was done by me, in [Calculator.java](https://github.com/Gexff/androidcalculator/blob/main/app/src/main/java/ca/brocku/cosc3p97_a1/Calculator.java), and I used a pseudocode reference I found online as a guide.
+To evaluate formulas, the app converts the entered infix expression into postfix. The implementation of the infix to postfix algorithm was done by me, in [Calculator.java](https://github.com/Gexff/android-calculator/blob/main/app/src/main/java/ca/brocku/cosc3p97_a1/Calculator.java), and I used a pseudocode reference I found online as a guide.
 
 # Buttons
 | Button(s) | Function                                                                                                                                                                                                    |
